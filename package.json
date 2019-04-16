@@ -1,0 +1,27 @@
+{
+  "name": "naf-tutorial",
+  "version": "1.0.0",
+  "description": "My first multi-user virtual reality",
+  "scripts": {
+    "start": "node ./server/easyrtc-server.js"
+  },
+  "author": "YOUR_NAME",
+  "dependencies": {
+    "easyrtc": "^1.1.0",
+    "express": "^4.16.4",
+    "networked-aframe": "^0.5.0",
+    "serve-static": "^1.13.2",
+    "socket.io": "^2.2.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czhou2822/5100_final.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czhou2822/5100_final/issues"
+  },
+  "homepage": "https://github.com/czhou2822/5100_final#readme"
+}
